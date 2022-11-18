@@ -4,15 +4,24 @@
 package com.solera.pingpong.adrucociamer;
 import com.solera.pingpong.fizzbuzz.FizzBuzz;
 import com.solera.pingpong.romannumerals.RomanNumerals;
+import com.solera.pingpong.tennis.*;
 public class App {
     public String getGreeting() {
         return "Hello World!";
     }
 
     public static void main(String[] args) {
+    	TennisTeam t1 = new TennisTeam("team1");
+    	TennisTeam t2 = new TennisTeam("team2");
     	System.out.println(new FizzBuzz(315).calcFizzBuzz());
     	System.out.println(new RomanNumerals().intToRoman(531));
     	System.out.println(new RomanNumerals().romanToInt("DXXXI"));
+    	t1.updateScore("");
+    	t1.updateScore("");
+    	t1.updateScore("");
+    	t2.updateScore("");
+    	t2.updateScore("");
+    	System.out.println(new Tennis().displayScores(t1, t2));
         System.out.println(new App().getGreeting());
     }
 }
