@@ -1,7 +1,7 @@
 # Ping pong pair TDD
 ## Who?
 - Adrià Rubio
-- Adrià Rubio :(
+- Ciaran Melarkey
 
 ## Links
 - [Exercises](./BugHunting.pdf "Exercises").
