@@ -11,7 +11,8 @@ public class App {
 
     public static void main(String[] args) {
     	System.out.println(new FizzBuzz(315).calcFizzBuzz());
-    	System.out.println(new RomanNumerals(531).intToRoman());
+    	System.out.println(new RomanNumerals().intToRoman(531));
+    	System.out.println(new RomanNumerals().romanToInt("DXXXI"));
         System.out.println(new App().getGreeting());
     }
 }
